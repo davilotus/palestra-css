@@ -1,0 +1,44 @@
+.destaque{
+	color: #e91e63 !important;
+}
+.css{
+	color: #1673B6 !important;
+}
+h1.css{
+	font-size: 4em !important;
+}
+.eu{
+	width: 200px;
+}
+.eu + span{
+	width: 100%;
+	float: left;
+}
+.reveal code:focus{
+		outline: none;
+}
+.reveal pre{
+	background-color: #3F3F3F;
+}
+.red{
+	color: #f44336;
+}
+
+.element{
+	color: #A5006E;
+}
+.pseudo{
+	color: #9C26AC;
+}
+.keys{
+	color: #DDD;
+}
+.propertie{
+	color: #C3C12A;
+}
+.value{
+	color: #007D70;
+}
+.coomment{
+	color: #666;
+}
