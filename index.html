@@ -7,6 +7,7 @@
 		<title>Palestra CSS</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/fontello.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/theme/black.css">
@@ -141,7 +142,16 @@
 				<section id="fragments">
 					<section id="fragments">
 						<h2>Comentários</h2>
-						<p class="fragment">São essenciais na documentação e organização do estilo</p>
+						<p>São essenciais na documentação e organização do estilo</p>
+						<pre class="fragment">
+							<code class="hljs" data-trim contenteditable>
+/* Comentário CSS uma linha */
+
+/*
+Comentário CSS
+Várias linhas
+*/							</code>
+						</pre>
 					</section>
 				</section>
 
@@ -207,6 +217,7 @@ font-family: 'nome-fonte';
 						<p class="fragment fade-up"><span class="pseudo">:first-child</span></p>
 						<p class="fragment fade-up"><span class="pseudo">:last-child</span></p>
 						<p class="fragment fade-up"><span class="pseudo">:nth-child(n)</span></p>
+						<p class="fragment fade-up"><span class="pseudo">:odd</span></p>
 					</section>
 
 				</section>
@@ -256,26 +267,27 @@ font-family: 'nome-fonte';
 				<section id="fragments">
 					<h2>Media queries</h2>
 					<ul class="fragment">
-						<div class="col-xs-12 col-sm-6">
-							<p>
+						<div class="col-xs-12">
+							<p class="queries">
 								width<br/>
 								height<br/>
+								print<br/>
 								device-width<br/>
 								device-height<br/>
 								orientarion<br/>
-								aspect-ratio
+								<!-- aspect-ratio
 							</p>
-
 						</div>
 						<div class="col-xs-12 col-sm-6">
-							device-aspect-ratio<br/>
-							color<br/>
-							color-index<br/>
-							monochrome<br/>
-							resolution<br/>
-							scan<br/>
-							grid
-
+							<p>
+								device-aspect-ratio<br/>
+								color<br/>
+								color-index<br/>
+								monochrome<br/>
+								resolution<br/>
+								scan<br/>
+								grid -->
+							</p>
 						</div>
 					</ul>
 				</section>
@@ -283,7 +295,7 @@ font-family: 'nome-fonte';
 				<section id="fragments">
 					<section id="fragments">
 						<h2>Frameworks</h2>
-						<ul class="fragment">
+						<ul class="fragment" id="framework">
 							<li><a href="http://getbootstrap.com/" target="blank">Bootstrap</a></li>
 							<li><a href="http://foundation.zurb.com/" target="blank">Foundation</a></li>
 							<li><a href="http://semantic-ui.com/" target="blank">Semantic UI</a></li>
@@ -325,8 +337,18 @@ font-family: 'nome-fonte';
 
 				<section id="fragments" data-background="#FFFFFF">
 					<h2>Obrigado!</h2>
+					<div class="contacts">
+						<div class="box">
+							<a href="https://www.facebook.com/davi.lotus" target="blank"><i class="icon-facebook"></i></a>
+							<a href="https://twitter.com/davi_lotus" target="blank"><i class="icon-twitter"></i></a>
+							<a href="https://plus.google.com/+DavidsonSilvalotus" target="blank"><i class="icon-gplus"></i></a>
+							<a href="https://www.instagram.com/davilotus/" target="blank"><i class="icon-instagram"></i></a>
+							<a href="mailto:davi.lotus@gmail.com" target="blank"><i class="icon-mail"></i></a>
+						</div>
+							<!-- <i class="icon-whatsapp"></i> -->
+							<a href="https://github.com/davilotus/palestra-css" target="blank"><i class="icon-link">Link da palestra no Github</i></a>
+					</div>
 				</section>
-
 			</div>
 		</div>
 
