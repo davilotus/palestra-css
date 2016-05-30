@@ -118,7 +118,7 @@
 						<h2>Tipos de seletores</h2>
 							<div class="col-xs-12 col-sm-6">
 								<ul class="fragment">
-									<li>Unieversal</li>
+									<li>Universal</li>
 									<li>tipo</li>
 									<li>atributo</li>
 									<li>pseudo-classe</li>
@@ -133,7 +133,6 @@
 									<li>filho</li>
 									<li>sucede imediatamente</li>
 									<li>sucede</li>
-									<li>descendente</li>
 								</ul>
 							</div>
 					</section>
@@ -190,21 +189,27 @@ font-family: 'nome-fonte';
 
 				<section id="fragments">
 					<section id="fragments">
-						<h2>Pseudo-elementos</h2>
+						<h2>Pseudo-elementos e pseudo-classes</h2>
 						<p>
 							<span class="element">p</span><span class="pseudo">:first-child</span><span class="keys">{ </span>
 							<span class="propertie">font-size</span><span class="keys">: </span><span class="value">16px</span>
 							<span class="keys"> }</span>
 						</p>
-						<p class="fragment fade-up"><span class="pseudo">:first-child</span> = Pseudo elemento</p>
+						<p>
+							<span class="element">p</span><span class="pseudo">::after</span><span class="keys">{ </span>
+							<span class="propertie">content</span><span class="keys">: </span><span class="value">'CSS3'</span>
+							<span class="keys"> }</span>
+						</p>
+						<p class="fragment fade-up"><span class="pseudo">:first-child</span> = Pseudo classe</p>
+						<p class="fragment fade-up"><span class="pseudo">::after</span> = Pseudo elemento</p>
 					</section>
 					<section id="fragments">
-						<h2>Tipos de Psedo-elementos</h2>
+						<h2>Tipos de Pseudo-classes</h2>
 						<p class="fragment fade-up">Dinâmicos</p>
 						<p class="fragment fade-up">Esruturais</p>
 					</section>
 					<section id="fragments">
-						<h2>Dinâmicos</h2>
+						<h2>Pseudo-classes Dinâmicas</h2>
 						<p>Controlam os estados dos elementos</p>
 						<p class="fragment fade-up"><span class="pseudo">:hover</span></p>
 						<p class="fragment fade-up"><span class="pseudo">:active</span></p>
@@ -212,12 +217,22 @@ font-family: 'nome-fonte';
 						<p class="fragment fade-up"><span class="pseudo">:focus</span></p>
 					</section>
 					<section id="fragments">
-						<h2>Estruturais</h2>
+						<h2>Pseudo-classes Estruturais</h2>
 						<p>Servem para selecionar um elemento da estrutura do código</p>
+						<p class="fragment fade-up"><span class="pseudo">:root</span></p>
+						<p class="fragment fade-up"><span class="pseudo">:empty</span></p>
+						<p class="fragment fade-up"><span class="pseudo">:only-child</span></p>
 						<p class="fragment fade-up"><span class="pseudo">:first-child</span></p>
 						<p class="fragment fade-up"><span class="pseudo">:last-child</span></p>
 						<p class="fragment fade-up"><span class="pseudo">:nth-child(n)</span></p>
-						<p class="fragment fade-up"><span class="pseudo">:odd</span></p>
+						<p class="fragment fade-up"><span class="pseudo">:nth-child(odd)</span></p>
+
+					</section>
+					<section id="fragments">
+						<h2>Psedo-elementos</h2>
+						<p>Adiciona elementos que não podem ser adicionados via HTML ou controldos por JS</p>
+						<p class="fragment fade-up"><span class="pseudo">::after</span></p>
+						<p class="fragment fade-up"><span class="pseudo">::before</span></p>
 					</section>
 
 				</section>
